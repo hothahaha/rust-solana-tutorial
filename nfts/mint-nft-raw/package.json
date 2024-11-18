@@ -1,0 +1,28 @@
+{
+    "name": "mint-nft-raw",
+    "version": "1.0.0",
+    "scripts": {
+        "app": "ts-node ./main.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@solana/buffer-layout": "^4.0.1",
+        "@solana/spl-token": "^0.4.9",
+        "@solana/web3.js": "^1.95.4",
+        "mz": "^2.7.0",
+        "yaml": "^2.6.0"
+    },
+    "devDependencies": {
+        "@tsconfig/recommended": "^1.0.1",
+        "@types/mz": "^2.7.8",
+        "ts-node": "^10.9.2",
+        "tsx": "^4.19.2",
+        "typescript": "^5.6.3"
+    },
+    "engines": {
+        "node": ">=20.10.0"
+    }
+}
